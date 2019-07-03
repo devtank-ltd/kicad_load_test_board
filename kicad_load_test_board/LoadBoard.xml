@@ -1,0 +1,1700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/tim/Documents/Devtank/JMA_CurrentWorkingFolder/Autosense_Tester/ProdAutosense_LoadBoard/ProdAutosenseTesterLoadBoard.sch</source>
+    <date>Wed 12 Jul 2017 22:35:18 BST</date>
+    <tool>Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Autosense Tester Load Board: 301-002</title>
+        <company>Devtank Ltd</company>
+        <rev>1</rev>
+        <date>12th July 2017</date>
+        <source>ProdAutosenseTesterLoadBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Sheet594D2055/" tstamps="/594D2056/">
+      <title_block>
+        <title>Autosense Tester Load Board: 301-002</title>
+        <company>Devtank Ltd</company>
+        <rev>1</rev>
+        <date>12th July 2017</date>
+        <source>Loads.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Sheet594D2AA2/" tstamps="/594D2AA3/">
+      <title_block>
+        <title>Autosense Tester Load Board: 301-002</title>
+        <company>Devtank Ltd</company>
+        <rev>1</rev>
+        <date>12th July 2017</date>
+        <source>PSU.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J3">
+      <value>CONN_01X10</value>
+      <footprint>Connectors_Molex:Molex_KK-6410-10_10x2.54mm_Straight</footprint>
+      <fields>
+        <field name="Devtank">710-010</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594E0709</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_02X06</value>
+      <footprint>Connectors:IDC_Header_Straight_12pins</footprint>
+      <fields>
+        <field name="Devtank">710-002</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594D2B40</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01X02</value>
+      <footprint>Connectors_Molex:Molex_MiniFit-JR-5556-02A_2x01x4.20mm_Straight</footprint>
+      <fields>
+        <field name="Devtank">709-002</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594D2BFF</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>IRFR5505</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-3_TabPin2</footprint>
+      <fields>
+        <field name="Devtank">173-002</field>
+      </fields>
+      <libsource lib="device" part="Q_PMOS_GDS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594D3832</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>470K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-034</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594D383A</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>22K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-035</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594D3842</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DDZ9697-7</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Devtank">138-002</field>
+      </fields>
+      <libsource lib="device" part="D_Zener_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594D384A</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594D3857</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>DNF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594D385E</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>0.27R</value>
+      <footprint>Resistors_SMD:R_2816</footprint>
+      <fields>
+        <field name="Devtank">104-001</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594D3866</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>470R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-001</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594D3884</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-010</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594D388C</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Devtank">170-001</field>
+      </fields>
+      <libsource lib="device" part="Q_NMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594D3894</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP4725</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="Devtank">125-001</field>
+      </fields>
+      <libsource lib="Devtank" part="MCP4725"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594DAA32</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-018</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594DB26A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594DB37F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594DBD97</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>DNF</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594DC1EE</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>DNF</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594DC496</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IRFZ44N</value>
+      <footprint>TO_SOT_Packages_THT:TO-220_Vertical</footprint>
+      <fields>
+        <field name="Devtank">172-002</field>
+      </fields>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D3B33</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>2R</value>
+      <footprint>KiCAD_PCB_Lib:R_4527</footprint>
+      <fields>
+        <field name="Devtank">104-002</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D3D60</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>INA250A4</value>
+      <footprint>Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Devtank">119-002</field>
+      </fields>
+      <libsource lib="Devtank" part="INA250"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D4053</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-037</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D4241</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-037</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D4471</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>DNF</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D45ED</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>DNF</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D4720</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D5231</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-005</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D5B34</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TLC271</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Devtank">120-001</field>
+      </fields>
+      <libsource lib="Devtank" part="TLC271"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D69B9</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-018</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D6B4D</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-012</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D6E00</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Devtank">106-004</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D729B</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-012</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D7C98</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>IRFZ44N</value>
+      <footprint>TO_SOT_Packages_THT:TO-220_Vertical</footprint>
+      <fields>
+        <field name="Devtank">172-002</field>
+      </fields>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D8CE0</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>2R</value>
+      <footprint>KiCAD_PCB_Lib:R_4527</footprint>
+      <fields>
+        <field name="Devtank">104-002</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D8CE7</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>TLC271</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Devtank">120-001</field>
+      </fields>
+      <libsource lib="Devtank" part="TLC271"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D8CF4</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-018</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D8CFB</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-012</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D8D02</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Devtank">106-004</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D8D09</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-012</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D8D2C</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594D9DD1</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594DA433</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>DS18B20</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
+      <fields>
+        <field name="Devtank">155-001</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594E30D6</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>4K7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-009</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594E37A1</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>594E559E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>DS18B20</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
+      <fields>
+        <field name="Devtank">155-001</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>595E5C56</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>595E5C7B</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>59646D1A</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2055/" tstamps="/594D2056/"/>
+      <tstamp>596470A9</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>1K1</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-039</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595E7BF9</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-012</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595E80B4</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Devtank">105-006</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595E820C</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>150uH</value>
+      <footprint>KiCAD_PCB_Lib:Inductor_13x13</footprint>
+      <fields>
+        <field name="Devtank">112-006</field>
+      </fields>
+      <libsource lib="device" part="L"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595E8566</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>S320</value>
+      <footprint>Diodes_SMD:D_SMB</footprint>
+      <fields>
+        <field name="Devtank">133-004</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_ALT"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595E89CA</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>62K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-038</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595E8AFD</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-015</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595EBDC1</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Devtank">105-008</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595EDBCB</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Devtank">108-002</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595EDC53</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Devtank">105-008</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595EFD90</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Devtank">108-002</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595EFE60</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>510R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-041</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F0471</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-012</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F0478</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Devtank">105-006</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F047F</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>150uH</value>
+      <footprint>KiCAD_PCB_Lib:Inductor_13x13</footprint>
+      <fields>
+        <field name="Devtank">112-006</field>
+      </fields>
+      <libsource lib="device" part="L"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F0486</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>S320</value>
+      <footprint>Diodes_SMD:D_SMB</footprint>
+      <fields>
+        <field name="Devtank">133-004</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_ALT"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F04A0</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>62K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-038</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F04AF</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-015</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F04C4</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Devtank">105-008</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F04E4</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Devtank">108-002</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F04EB</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Devtank">105-008</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F0504</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Devtank">108-002</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F050B</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>300R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-043</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F075E</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-012</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F0765</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Devtank">105-006</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F076C</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>150uH</value>
+      <footprint>KiCAD_PCB_Lib:Inductor_13x13</footprint>
+      <fields>
+        <field name="Devtank">112-006</field>
+      </fields>
+      <libsource lib="device" part="L"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F0773</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>S320</value>
+      <footprint>Diodes_SMD:D_SMB</footprint>
+      <fields>
+        <field name="Devtank">133-004</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_ALT"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F078D</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>91K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-040</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F079C</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-015</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F07B1</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Devtank">105-008</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F07D1</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Devtank">108-002</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F07D8</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Devtank">105-008</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F07F1</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Devtank">108-002</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F07F8</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>27R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-042</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F2802</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>47</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-025</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F3117</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Devtank">101-005</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>595F428B</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>SYNC</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>5963BCBE</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>LM22670</value>
+      <footprint>TO_SOT_Packages_SMD:TO-263-7_TabPin4</footprint>
+      <fields>
+        <field name="Devtank">151-003</field>
+      </fields>
+      <libsource lib="Devtank" part="LM22670"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>5963D7E7</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>LM22670</value>
+      <footprint>TO_SOT_Packages_SMD:TO-263-7_TabPin4</footprint>
+      <fields>
+        <field name="Devtank">151-003</field>
+      </fields>
+      <libsource lib="Devtank" part="LM22670"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>5963DE9F</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>LM22670</value>
+      <footprint>TO_SOT_Packages_SMD:TO-263-7_TabPin4</footprint>
+      <fields>
+        <field name="Devtank">151-003</field>
+      </fields>
+      <libsource lib="Devtank" part="LM22670"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>5963E2F3</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>VOUT</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>5963F24B</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>EN</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>5963FD5C</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>EN</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>59640AC7</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>EN</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>59640DD1</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>VOUT</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>596416ED</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>VOUT</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>59641BC4</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>SYNC</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>5964307F</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>SYNC</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/Sheet594D2AA2/" tstamps="/594D2AA3/"/>
+      <tstamp>59643489</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X10">
+      <description>Connector, single row, 01x10</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X10</fp>
+        <fp>Pin_Header_Angled_1X10</fp>
+        <fp>Socket_Strip_Straight_1X10</fp>
+        <fp>Socket_Strip_Angled_1X10</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X06">
+      <description>Connector, double row, 02x06</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X06</fp>
+        <fp>Pin_Header_Angled_2X06</fp>
+        <fp>Socket_Strip_Straight_2X06</fp>
+        <fp>Socket_Strip_Angled_2X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky_ALT">
+      <description>Schottky diode, alternativ symbol</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Zener_ALT">
+      <description>Zener Diode, alternativ symbol</description>
+      <docs>https://en.wikipedia.org/wiki/Zener_diode</docs>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Devtank" part="INA250">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA250</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN-" type="input"/>
+        <pin num="2" name="IN-" type="input"/>
+        <pin num="3" name="IN-" type="input"/>
+        <pin num="4" name="SH-" type="output"/>
+        <pin num="5" name="VIN-" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="REF" type="input"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="9" name="OUT" type="output"/>
+        <pin num="10" name="VS" type="power_in"/>
+        <pin num="11" name="GND" type="input"/>
+        <pin num="12" name="VIN+" type="input"/>
+        <pin num="13" name="SH+" type="output"/>
+        <pin num="14" name="IN+" type="input"/>
+        <pin num="15" name="IN+" type="input"/>
+        <pin num="16" name="IN+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Devtank" part="LM22670">
+      <description>3A DC-DC Step Down Simple Switcher Regulator</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM22670</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="input"/>
+        <pin num="2" name="VIN" type="input"/>
+        <pin num="3" name="BOOT" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SYNC" type="input"/>
+        <pin num="6" name="FB" type="input"/>
+        <pin num="7" name="EN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Devtank" part="MCP4725">
+      <description>12-bit digital to analog converter, I2C interface</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP4725</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="SDA" type="input"/>
+        <pin num="5" name="SCL" type="output"/>
+        <pin num="6" name="A0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_GDS">
+      <description>Transistor N-MOSFET with substrate diode (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_GSD">
+      <description>Transistor N-MOSFETwith substrate diode (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PMOS_GDS">
+      <description>Transistor P-MOSFET with substrate diode (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Devtank" part="TLC271">
+      <description>Single Dual Supply Op amp.</description>
+      <footprints>
+        <fp>SOIC*</fp>
+        <fp>DIP*</fp>
+        <fp>TSSOP*</fp>
+        <fp>SSOP*</fp>
+        <fp>MSOP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC271</field>
+      </fields>
+      <pins>
+        <pin num="1" name="N1" type="power_in"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="N2" type="power_in"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="BIAS" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="Devtank">
+      <uri>/home/tim/Documents/Devtank/KiCAD_Lib/Devtank.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C6" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U4" pin="11"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="R23" pin="1"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J3" pin="9"/>
+      <node ref="U6" pin="8"/>
+      <node ref="R20" pin="1"/>
+      <node ref="U6" pin="4"/>
+      <node ref="J3" pin="8"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="8"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="R33" pin="2"/>
+      <node ref="U9" pin="4"/>
+      <node ref="R35" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="U8" pin="4"/>
+      <node ref="U7" pin="4"/>
+      <node ref="C17" pin="2"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="U5" pin="3"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="J2" pin="11"/>
+      <node ref="J2" pin="12"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(R1-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="4" name="/LOAD_SDA">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="5" name="/LOAD_SCL">
+      <node ref="U1" pin="5"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="6" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="7" name="Net-(Q1-Pad3)">
+      <node ref="R7" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="8" name="Net-(R3-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="9" name="/Sheet594D2055/V_CONT">
+      <node ref="R9" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="10" name="/20V_EN">
+      <node ref="R26" pin="1"/>
+      <node ref="J2" pin="6"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="11" name="/TEMP_DQ">
+      <node ref="U3" pin="2"/>
+      <node ref="J2" pin="9"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="12" name="/V_P3">
+      <node ref="J3" pin="3"/>
+      <node ref="C25" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="TP8" pin="1"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="13" name="/V_P4">
+      <node ref="J3" pin="4"/>
+      <node ref="R29" pin="1"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="L3" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C26" pin="1"/>
+    </net>
+    <net code="14" name="/10V_EN">
+      <node ref="TP3" pin="1"/>
+      <node ref="U7" pin="7"/>
+      <node ref="R24" pin="1"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="15" name="/15V_EN">
+      <node ref="TP2" pin="1"/>
+      <node ref="U8" pin="7"/>
+      <node ref="J2" pin="8"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="16" name="/SHORT_SW">
+      <node ref="R4" pin="2"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="17" name="/LOAD_CURRENT">
+      <node ref="R12" pin="1"/>
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="18" name="+12V">
+      <node ref="U6" pin="7"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U4" pin="10"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J3" pin="7"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="19" name="/V_P1">
+      <node ref="C21" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="TP7" pin="1"/>
+    </net>
+    <net code="20" name="/ADJ_DC">
+      <node ref="C13" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U9" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U7" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="21" name="Net-(C3-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="22" name="Net-(C4-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="23" name="/V_LOAD">
+      <node ref="U4" pin="15"/>
+      <node ref="U4" pin="14"/>
+      <node ref="U4" pin="16"/>
+      <node ref="J3" pin="6"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="24" name="Net-(Q3-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="25" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="26" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="27" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="U6" pin="6"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="28" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="29" name="Net-(C8-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="30" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="31" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="32" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="33" name="Net-(C27-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="U4" pin="12"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C27" pin="1"/>
+    </net>
+    <net code="34" name="Net-(C28-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="35" name="Net-(R13-Pad1)">
+      <node ref="U6" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="36" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="37" name="Net-(Q4-Pad3)">
+      <node ref="R19" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="38" name="Net-(Q4-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="39" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="40" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="41" name="Net-(Q3-Pad2)">
+      <node ref="U4" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="42" name="Net-(U6-Pad5)">
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="43" name="Net-(U6-Pad1)">
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="44" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="45" name="Net-(C20-Pad2)">
+      <node ref="U9" pin="3"/>
+      <node ref="C20" pin="2"/>
+    </net>
+    <net code="46" name="Net-(C20-Pad1)">
+      <node ref="L3" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="47" name="Net-(R29-Pad2)">
+      <node ref="R29" pin="2"/>
+      <node ref="U9" pin="6"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="48" name="Net-(R21-Pad2)">
+      <node ref="U7" pin="5"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="49" name="Net-(R22-Pad2)">
+      <node ref="U8" pin="5"/>
+      <node ref="R22" pin="2"/>
+      <node ref="TP6" pin="1"/>
+    </net>
+    <net code="50" name="Net-(R32-Pad2)">
+      <node ref="R35" pin="1"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="51" name="Net-(R30-Pad2)">
+      <node ref="R33" pin="1"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="52" name="Net-(R27-Pad2)">
+      <node ref="U7" pin="6"/>
+      <node ref="R30" pin="1"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="53" name="Net-(C18-Pad2)">
+      <node ref="U7" pin="3"/>
+      <node ref="C18" pin="2"/>
+    </net>
+    <net code="54" name="Net-(C18-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="55" name="Net-(C19-Pad2)">
+      <node ref="U8" pin="3"/>
+      <node ref="C19" pin="2"/>
+    </net>
+    <net code="56" name="Net-(R28-Pad2)">
+      <node ref="R31" pin="1"/>
+      <node ref="R28" pin="2"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="57" name="Net-(R31-Pad2)">
+      <node ref="R31" pin="2"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="58" name="Net-(C19-Pad1)">
+      <node ref="U8" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C19" pin="1"/>
+    </net>
+  </nets>
+</export>
